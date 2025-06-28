@@ -12,7 +12,7 @@ def check(comp,user):
   return 1
 
 comp = random.randint(0,2)
-user=int(input("0 for Snake , 1 for Water , 2 for Gun"))
+user=int(input("0 for Snake , 1 for Water , 2 for Gun\n\n"))
 
 score=check(comp,user)
 print("You: ",user)
