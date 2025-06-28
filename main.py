@@ -1,4 +1,5 @@
 import random
+print("Welcome to Snake Water Gun Game!")
 def check(comp,user):
   if comp==user:
     return 0
